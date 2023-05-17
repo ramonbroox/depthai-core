@@ -92,7 +92,7 @@ option(DEPTHAI_SANITIZE "Enable Address and Undefined sanitizers for library, ex
 option(DEPTHAI_INSTALL   "Enable install target for depthai-core targets" ON)
 
 # Debug option
-set(DEPTHAI_XLINK_LOCAL "" CACHE STRING "Path to local XLink source to use instead of Hunter")
+set(DEPTHAI_XLINK_LOCAL "../XLink" CACHE STRING "Path to local XLink source to use instead of Hunter")
 set(DEPTHAI_SHARED_LOCAL "" CACHE STRING "Path to local depthai-shared source to use instead of submodule")
 set(DEPTHAI_BOOTLOADER_SHARED_LOCAL "" CACHE STRING "Path to local depthai-bootloader-shared source to use instead of submodule")
 
